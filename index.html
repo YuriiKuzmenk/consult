@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+
+    <style>
+        html,body {height: 100%;}
+        body{
+            background: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+           
+        }
+        .ramka{
+           
+            border-radius: 4rem;
+            width: 100%;
+            background: white;
+            display: flex;
+            position: fixed;
+            
+            
+        }
+
+        .menu {
+            display: flex;
+            margin-left: 2rem;
+            background-color: gray;
+            flex-direction: column;
+            width: 150px;
+            height:100vh;
+            justify-content: center;            
+        }
+        .logo {
+            display: flex;
+            align-items: flex-start;
+        }
+        .button {
+            display: flex;
+            align-items: flex-end;
+            
+        }
+        .footer {
+            display: flex;
+            justify-content: right;
+            flex-direction: column;
+            width: 5%;
+        }
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <div class="ramka">
+        <div class="menu">
+            <img class="logo" src="https://via.placeholder.com/70x20" alt="logo Schark">
+            <nav class="nav">
+                <ul class="nav__list1">
+                    <li class="nav__href" href="">
+                        <span class="icon">
+
+                        </span>
+                        <span class="text">
+                            Dashboard
+                        </span>
+                    </li>
+                    <li class="nav__href" href="">
+                        <span class="icon">
+
+                        </span>
+                        <span class="text">
+                            Statistic
+                        </span>
+                    </li>
+                    <li class="nav__href" href="">
+                        <span class="icon">
+                            
+                        </span>
+                        <span class="text">
+                            Support
+                        </span>
+                    </li>
+                    <li class="nav__href" href="">
+                        <span class="icon">
+                            
+                        </span>
+                        <span class="text">
+                            Inbox
+                        </span>
+                    </li>
+                    <li class="nav__href" href="">
+                        <span class="icon">
+
+                        </span>
+                        <span class="text">
+                            Goals
+                        </span>
+                    </li>
+                    <li class="nav__href" href="">
+                        <span class="icon">
+
+                        </span>
+                        <span class="text">
+                            Links
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+            <button class="button">Show more</button>
+        </div>
+            <div class="display">
+            <h1>Inbox</h1>
+            </div>
+            <div class="footer">
+                <button class="button__aside">Show more</button>
+                <button class="button__aside">Show more</button>
+                <button class="button__aside">Show more</button>
+                <button class="button__aside">Show more</button>
+            </div>
+    </div>
+</body>
+</html>
